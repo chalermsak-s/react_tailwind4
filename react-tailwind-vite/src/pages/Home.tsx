@@ -1,8 +1,12 @@
+import ContactList from "@/components/ContactList"
+
 const Home = () => {
   return (
     <>
+    <ContactList/>
+    <h1 className="text-center text-3xl bg-mint-700 no-underline">Hello Tailwind</h1>
       {/* Utility Class in Tailwind Css */}
-      <div className=" flex items-center max-w-sm bg-white mx-auto rounded-xl shadow-lg outline-black/5 p-6 gap-x-4 dark:bg-slate-800 dark:shadow-none">
+      <div className="mt-10 flex items-center max-w-sm bg-white mx-auto rounded-xl shadow-lg outline-black/5 p-6 gap-x-4 dark:bg-slate-800 dark:shadow-none">
         <img className="size-12" src="/images/chaticon.svg" alt="Logo App" />
         <div>
           <div className="text-xl font-bold text-black dark:text-white">Kuma Chat</div>
